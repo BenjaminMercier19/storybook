@@ -26,6 +26,7 @@ import vue3ViteFrameworkConfig from '../../code/frameworks/vue3-vite/build-confi
 import webComponentsViteFrameworkConfig from '../../code/frameworks/web-components-vite/build-config.ts';
 import tanstackReactFrameworkConfig from '../../code/frameworks/tanstack-react/build-config.ts';
 import angularCmConfig from '../../code/lib/angular-cm/build-config.ts';
+import componentMetaTypeScriptConfig from '../../code/lib/component-meta-typescript/build-config.ts';
 import angularCompodocConfig from '../../code/lib/angular-compodoc/build-config.ts';
 import cliConfig from '../../code/lib/cli-storybook/build-config.ts';
 import codemodConfig from '../../code/lib/codemod/build-config.ts';
@@ -83,6 +84,7 @@ export const buildEntries = {
 
   // lib
   '@storybook/angular-cm': angularCmConfig,
+  '@storybook/component-meta-typescript': componentMetaTypeScriptConfig,
   '@storybook/angular-compodoc': angularCompodocConfig,
   '@storybook/cli': cliConfig,
   '@storybook/codemod': codemodConfig,
